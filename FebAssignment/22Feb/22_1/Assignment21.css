@@ -1,0 +1,71 @@
+body{
+    margin: 10px;   
+    padding: 0;
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.cal{
+    background-color: black;
+    display: flex;
+    display: block;
+    border-radius: 50px 60px 20px 20px;
+    transform: translate(50% 50%);
+    transition: 0.25px;
+    position: absolute;
+    
+
+}
+input{
+    border-radius: 21px;
+    border: 10px solid rgb(10, 20, 16);
+    font-size: 18px;
+    height: 55px;
+    color: rebeccapurple;
+    
+}
+.btn{
+    width: 60px;
+}
+.btn:hover{
+    background-color: black;
+}
+.opr:hover{
+    background-color: black;
+}
+.opr{
+    width: 60px;
+}
+.input{
+    width: 300px;
+    height: 100px;
+}
+.c{
+    background-color: gold;
+}
+.one{
+    background-color: #FAFAD2;
+}
+.theme_switch:checked ~ .form {
+    background-color: blanchedalmond;
+    color: #EFEFEF;
+}
+
+.theme_switch ~ span::after {
+    content: '🌞';
+    
+}
+
+.theme_switch:checked ~ span::after {
+    content: '🌑';
+    
+}
+.form{
+    max-width: 500px;
+    height: 100%;
+    margin-top: 90px;
+    margin-left: 90px;
+}

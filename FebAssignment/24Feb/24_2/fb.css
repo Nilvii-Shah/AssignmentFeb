@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("facebook1.jpg") ;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    background-color: #0078ff;
+
+    
+    
+}
+.icon-part{
+    display: flex;
+    flex-direction: row;
+    
+    margin-left: 250px;
+    
+    
+}
+.chat-box{
+    height:500px;
+    width: 550px;
+    background-color: white;
+    position: relative;
+    top:250px;
+    left:970px
+
+}
+.icon img{
+    padding-left: 25px;
+    height: 30px;
+    width: 30px;
+    
+    
+}
+.username{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    
+}
+.username img{
+    width: 15px;
+    height: 15px;
+    
+}
+.username span{
+    margin-left: 10px;
+
+}
+.chat{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+}
+.chat input{
+    border-radius: 15px;
+    height: 50px;
+    margin-top: 25px;
+    
+}
+.man input{
+    background-color: #C8C8C8;
+}
+
+.chat input::placeholder{
+    color: black;
+    font-weight: bolder;
+    
+}
+
+.bro {
+    background-color: #0078FF;
+    position: relative;
+    left: 240px;
+
+}
+.man img{
+    height:30px;
+    width:30px;
+    position: relative;
+    top: 15px;
+    padding-right: 10px;
+}
+.keyboard input{
+    position: relative;
+    top: 5px;
+    height: 50px;
+    width: 98.5%;
+    border:none;
+    border-top: 2px solid gray;
+}
+.keyboard input::placeholder{
+    color: gray;
+
+}
+.icon-bottom img{
+    padding-top: 10px;
+    height: 30px;
+    width: 30px;
+    padding-right: 5px;
+    color: aqua;
+    
+}
+
+    
