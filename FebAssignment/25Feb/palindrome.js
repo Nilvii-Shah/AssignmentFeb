@@ -20,5 +20,5 @@ const string = prompt('Enter a string: ');
 // call the function
 const value = checkPalindrome(string);
 
-console.log(value);
-document.write(value);
+
+document.write(string);
